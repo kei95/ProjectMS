@@ -22,7 +22,7 @@ public class ScreenController {
 //    protected void removeScreen(String name){
 //        screenMap.remove(name);
 //    }
-
+// this is sa test
 //    Method for going to another page
 public void activate(String name){
         main.setRoot( screenMap.get(name) );
