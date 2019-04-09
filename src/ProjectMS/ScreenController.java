@@ -19,12 +19,12 @@ public class ScreenController {
     }
 
     // Method for quiting
-//    protected void removeScreen(String name){
-//        screenMap.remove(name);
-//    }
+    protected void removeScreen(String name){
+        screenMap.remove(name);
+    }
 
-//    Method for going to another page
-public void activate(String name){
+    //    Method for going to another page
+    public void activate(String name){
         main.setRoot( screenMap.get(name) );
     }
 }

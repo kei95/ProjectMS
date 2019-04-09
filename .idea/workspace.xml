@@ -2,19 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ProjectMS/MainScene/NewScreen.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProjectMS/MainScene/NewScreenController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProjectMS/ScreenController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProjectMS/Title/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProjectMS/Title/Title.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProjectMS/ResultScene/ResultScene.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProjectMS/ResultScene/ResultSceneController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProjectMS/TimerScene/TimerScene.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectMS/ProjectMS/Controller.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjectMS/ProjectMS/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectMS/ProjectMS/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectMS/ProjectMS/sample.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectMS/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectMS/ProjectMS/MainScene/NewScreen.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectMS/ProjectMS/MainScene/NewScreenController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectMS/ProjectMS/ScreenController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectMS/ProjectMS/ScreenController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectMS/ProjectMS/Title/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectMS/ProjectMS/Title/Title.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectMS/ProjectMS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectMS/ProjectMS/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ProjectMS/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectMS/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectMS/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProjectMS/MainScene/NewScreen.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProjectMS/MainScene/NewScreenController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProjectMS/ScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectMS/ScreenController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProjectMS/Title/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectMS/StarterScene/StarterSceneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProjectMS/Title/Title.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectMS/StarterScene/StarterScene.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProjectMS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectMS/style.css" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,8 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ProjectMS/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+            <state relative-caret-position="225">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,65 +89,68 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ProjectMS/MainScene/NewScreenController.java">
+        <entry file="file://$PROJECT_DIR$/src/ProjectMS/ResultScene/ResultScene.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="42" selection-end-column="11" />
             </state>
           </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ProjectMS/ResultScene/ResultSceneController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ProjectMS/TimerScene/TimerSceneController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="36" column="79" selection-start-line="36" selection-start-column="79" selection-end-line="36" selection-end-column="79" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ProjectMS/StarterScene/StarterSceneController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ProjectMS/TimerScene/TimerScene.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ProjectMS/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" selection-start-column="1" selection-end-column="5" />
+            <state relative-caret-position="150">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ProjectMS/MainScene/NewScreen.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ProjectMS/ScreenController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ProjectMS/Title/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ProjectMS/Title/Title.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
     </leaf>
@@ -155,6 +163,23 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ResultScene</find>
+      <find>screenController</find>
+      <find>button</find>
+      <find>splitTimerLabel</find>
+      <find>dateTime</find>
+      <find>vb</find>
+      <find>vbox</find>
+      <find>StopButton</find>
+      <find>MoveButton</find>
+      <find>timer</find>
+      <find>ResultSceneController</find>
+      <find>play</find>
+      <find>ResultSceneController.timer</find>
+    </findStrings>
+  </component>
   <component name="FindManager">
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
@@ -166,26 +191,46 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ProjectMS/style.css" />
         <option value="$PROJECT_DIR$/src/ProjectMS/sample.fxml" />
         <option value="$PROJECT_DIR$/src/ProjectMS/Title.fxml" />
         <option value="$PROJECT_DIR$/src/ProjectMS/NewScreen.java" />
         <option value="$PROJECT_DIR$/src/ProjectMS/NewScreen.fxml" />
         <option value="$PROJECT_DIR$/src/ProjectMS/NewScreenController.java" />
-        <option value="$PROJECT_DIR$/src/ProjectMS/ScreenController.java" />
         <option value="$PROJECT_DIR$/src/ProjectMS/Title/Main.java" />
         <option value="$PROJECT_DIR$/src/ProjectMS/Main/Main.java" />
         <option value="$PROJECT_DIR$/src/ProjectMS/Controller.java" />
-        <option value="$PROJECT_DIR$/src/ProjectMS/Title/Controller.java" />
-        <option value="$PROJECT_DIR$/src/ProjectMS/Main.java" />
         <option value="$PROJECT_DIR$/src/ProjectMS/MainScene/NewScreenController.java" />
+        <option value="$PROJECT_DIR$/src/ProjectMS/MainScene/NewScreen.fxml" />
+        <option value="$PROJECT_DIR$/src/ProjectMS/Result.java" />
+        <option value="$PROJECT_DIR$/src/ProjectMS/ResultController.java" />
+        <option value="$PROJECT_DIR$/src/ProjectMS.java" />
+        <option value="$PROJECT_DIR$/src/ProjectMS/TimerController.java" />
+        <option value="$PROJECT_DIR$/src/ProjectMS/Title/Controller.java" />
+        <option value="$PROJECT_DIR$/src/ProjectMS/Title/Title.fxml" />
+        <option value="$PROJECT_DIR$/src/ProjectMS/Result/Result.fxml" />
+        <option value="$PROJECT_DIR$/src/ProjectMS/Title/StarterScreen.fxml" />
+        <option value="$PROJECT_DIR$/src/ProjectMS/Title/StarterScreenController.java" />
+        <option value="$PROJECT_DIR$/src/ProjectMS/MainScene/TimerScene.fxml" />
+        <option value="$PROJECT_DIR$/src/ProjectMS/MainScene/TimerSceneController.java" />
+        <option value="$PROJECT_DIR$/src/ProjectMS/ScreenController.java" />
+        <option value="$PROJECT_DIR$/src/ProjectMS/StarterScene/StarterScreenController.java" />
+        <option value="$PROJECT_DIR$/src/ProjectMS/ResultScene/Result.fxml" />
+        <option value="$PROJECT_DIR$/src/ProjectMS/StarterScene/StarterSceneController.java" />
+        <option value="$PROJECT_DIR$/src/ProjectMS/StarterScene/StarterScene.fxml" />
+        <option value="$PROJECT_DIR$/src/ProjectMS/Main.java" />
+        <option value="$PROJECT_DIR$/src/ProjectMS/ResultScene/ResultSceneController.java" />
+        <option value="$PROJECT_DIR$/src/ProjectMS/style.css" />
+        <option value="$PROJECT_DIR$/src/ProjectMS/ResultScene/ResultScene.fxml" />
+        <option value="$PROJECT_DIR$/src/ProjectMS/TimerScene/TimerSceneController.java" />
+        <option value="$PROJECT_DIR$/src/ProjectMS/TimerScene/TimerScene.fxml" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="812" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
@@ -196,6 +241,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,12 +260,32 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ProjectMS" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ProjectMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ProjectMS" type="462c0819:PsiDirectoryNode" />
+              <item name="ResultScene" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ProjectMS" type="462c0819:PsiDirectoryNode" />
+              <item name="StarterScene" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ProjectMS" type="462c0819:PsiDirectoryNode" />
+              <item name="TimerScene" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -231,19 +297,19 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553716049802" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554787646935" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="recentsLimit" value="5" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/ProjectMS" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/ProjectMS/Title" />
       <recent name="$PROJECT_DIR$/src/ProjectMS/Main" />
+      <recent name="$PROJECT_DIR$/src/ProjectMS" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/ProjectMS" />
     </key>
   </component>
@@ -284,7 +350,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ProjectMS.Title.*" />
+          <option name="PATTERN" value="ProjectMS.StarterScene.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -349,9 +415,9 @@
     <option name="totallyTimeSpent" value="1302000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="812" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.27825466" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.19098713" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -359,19 +425,19 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28433734" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3263889" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40416667" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32916668" />
       <window_info anchor="bottom" id="Problems" order="9" />
       <window_info anchor="bottom" id="Changes" order="10" />
       <window_info anchor="bottom" id="Profiler" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32777777" />
       <window_info anchor="bottom" id="Terminal" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -385,6 +451,41 @@
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.19098713" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3263889" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40416667" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32916668" />
+      <window_info anchor="bottom" id="Problems" order="9" />
+      <window_info anchor="bottom" id="Changes" order="10" />
+      <window_info anchor="bottom" id="Profiler" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32777777" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="JetGradle" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Maven" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+    </layout-to-restore>
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
@@ -398,9 +499,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ProjectMS/UNADJUSTEDNONRAW_thumb_45.jpg">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/javafx-src.zip!/javafx/animation/AnimationTimer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="90" column="25" selection-start-line="90" selection-start-column="25" selection-end-line="90" selection-end-column="25" />
+        </state>
+      </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProjectMS.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/javafx-src.zip!/javafx/event/EventHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -408,65 +514,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProjectMS/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/ProjectMS/TimerController.java" />
+    <entry file="file://$PROJECT_DIR$/src/ProjectMS/UNADJUSTEDNONRAW_thumb_45.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProjectMS/Title/Title.fxml">
+    <entry file="file://$PROJECT_DIR$/src/ProjectMS/StarterScene/StarterScene.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        <state relative-caret-position="195">
+          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProjectMS/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="1" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProjectMS/Title/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProjectMS/MainScene/NewScreen.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProjectMS/MainScene/NewScreenController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ProjectMS/ScreenController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProjectMS/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProjectMS/ResultScene/ResultScene.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="42" selection-end-column="11" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProjectMS/ResultScene/ResultSceneController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProjectMS/TimerScene/TimerSceneController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="36" column="79" selection-start-line="36" selection-start-column="79" selection-end-line="36" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProjectMS/StarterScene/StarterSceneController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProjectMS/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProjectMS/TimerScene/TimerScene.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
   </component>
 </project>

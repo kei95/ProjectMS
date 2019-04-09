@@ -11,13 +11,14 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
 
-        Parent root = FXMLLoader.load(getClass().getResource("Title/Title.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("StarterScene/StarterScene.fxml"));
 
-        //Title scene
+        //StarterScene scene
         Scene scene = new Scene(root);
         screenController = new ScreenController(scene);
-        screenController.addScreen("root", FXMLLoader.load(getClass().getResource("Title/Title.fxml")));
-        screenController.addScreen("MainScene", FXMLLoader.load(getClass().getResource("MainScene/NewScreen.fxml")));
+        screenController.addScreen("StarterScene", FXMLLoader.load(getClass().getResource("StarterScene/StarterScene.fxml")));
+        screenController.addScreen("TimerScene", FXMLLoader.load(getClass().getResource("TimerScene/TimerScene.fxml")));
+        screenController.addScreen("ResultScene", FXMLLoader.load(getClass().getResource("ResultScene/ResultScene.fxml")));
 
         scene.getStylesheets().addAll(this.getClass().getResource("./style.css").toExternalForm());
         primaryStage.setScene(scene);

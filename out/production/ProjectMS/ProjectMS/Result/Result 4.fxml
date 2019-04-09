@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane id="pane" fx:id="pane" prefHeight="250" prefWidth="500" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProjectMS.ResultController">
+    <children>
+        <Label id="lblTime" fx:id="lblTime" textFill="#f2f9ff" textOverrun="WORD_ELLIPSIS">
+            <font>
+                <Font name="Big Caslon Medium" size="78.0" />
+            </font>
+        </Label>
+    </children>
+    <cursor>
+        <Cursor fx:constant="OPEN_HAND" />
+    </cursor>
+</StackPane>

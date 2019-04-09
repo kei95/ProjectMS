@@ -5,7 +5,7 @@ import javafx.scene.control.Button;
 import javafx.event.ActionEvent;
 
 
-public class StarterScreenController {
+public class StarterSceneController {
 
     @FXML
     private Button startButton;

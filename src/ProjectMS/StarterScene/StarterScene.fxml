@@ -7,7 +7,7 @@
 <?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
 
-<StackPane id="pane" fx:id="TimerGUI" prefHeight="250" prefWidth="500" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProjectMS.StarterScene.StarterScreenController">
+<StackPane id="backgroundPane" fx:id="StarterPane" prefHeight="250" prefWidth="500" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProjectMS.StarterScene.StarterSceneController">
    <children>
       <Button fx:id="startButton" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
               mnemonicParsing="false" text="Start" onAction="#startButtonPressed">

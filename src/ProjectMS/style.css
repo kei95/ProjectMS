@@ -1,6 +1,12 @@
-#pane{
+#backgroundPane{
     -fx-background-image: url("UNADJUSTEDNONRAW_thumb_45.jpg");
     -fx-background-repeat: stretch;
     -fx-background-size: cover;
     -fx-background-position: center center;
+}
+
+#text{
+    -fx-background-color: rgba(79, 47, 47, 0.7);
+    -fx-border-color: white;
+    -fx-margin: 50;
 }
