@@ -28,7 +28,9 @@
         <font>
             <Font name="Big Caslon Medium" size="78.0" />
         </font>
-
+        <VBox.margin>
+        <Insets bottom="10.0" />
+        </VBox.margin>
     </Label>
 
     <HBox alignment="CENTER" prefHeight="50" prefWidth="500" spacing="50.0">
