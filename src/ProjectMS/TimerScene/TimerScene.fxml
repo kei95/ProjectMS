@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane id="pane" fx:id="Time" prefHeight="250" prefWidth="500" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProjectMS.MainScene.TimerSceneController" >
+    <children>
+        <Label id="Time" fx:id="dateTime" textFill="#f2f9ff" textOverrun="WORD_ELLIPSIS">
+            <font>
+                <Font name="Big Caslon Medium" size="78.0" />
+            </font>
+        </Label>
+      <Button fx:id="startTimerButton" mnemonicParsing="false" opacity="0.0" prefHeight="268.0" prefWidth="505.0"
+              textAlignment="CENTER" onAction="#moveButtonPressed"/>
+    </children>
+</StackPane>
