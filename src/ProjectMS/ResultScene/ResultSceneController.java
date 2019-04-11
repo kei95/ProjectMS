@@ -34,7 +34,7 @@ public class ResultSceneController implements Initializable {
     @FXML
     private Label DateDisplay;
 
-    private boolean isTimerWorking = true;
+    private boolean isTimerWorking = false;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
@@ -48,7 +48,12 @@ public class ResultSceneController implements Initializable {
             }
         }), new KeyFrame(Duration.seconds(1)));
         timer.setCycleCount(Animation.INDEFINITE);
-        timer.play();
+        if(second == 0){
+            TimeDisplay.setText(String.format("%02d:%02d:%02d", second / 3600, (second % 3600) / 60, second % 60));
+            DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd \n");
+            DateDisplay.setText(LocalDateTime.now().format(formatter));
+        }
+//        timer.play();
     }
 
     @FXML
