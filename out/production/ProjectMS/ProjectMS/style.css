@@ -1,5 +1,5 @@
 #backgroundPane{
-    -fx-background-image: url("UNADJUSTEDNONRAW_thumb_45.jpg");
+    -fx-background-image: url("picture_start_screen.jpg");
     -fx-background-repeat: stretch;
     -fx-background-size: cover;
     -fx-background-position: center center;
@@ -10,3 +10,60 @@
     -fx-border-color: white;
     -fx-margin: 50;
 }
+
+#backgroundPane_timer{
+    -fx-background-image: url("img_2.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+
+#backgroundPane_main{
+    -fx-background-image: url("img_1.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+
+#backgroundPane_main1{
+    -fx-background-image: url("img_4.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+
+#backgroundPane_main2{
+    -fx-background-image: url("img_5.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+
+#backgroundPane_main3{
+    -fx-background-image: url("img_6.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+
+#backgroundPane_main4{
+    -fx-background-image: url("img_7.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+
+#backgroundPane_main5{
+    -fx-background-image: url("img_8.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+
+#backgroundPane_main6{
+    -fx-background-image: url("img_9.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+

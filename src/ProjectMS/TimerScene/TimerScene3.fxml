@@ -3,13 +3,12 @@
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.effect.DropShadow?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox id="backgroundPane_main" fx:id="verticalPane" alignment="CENTER" prefHeight="58.0" prefWidth="605.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProjectMS.TimerScene.TimerSceneController">
-   <Button alignment="CENTER" contentDisplay="CENTER" minHeight="-Infinity" mnemonicParsing="false" onAction="#startButtonPressed1" prefHeight="75.0" prefWidth="625.0" style="-fx-background-color: transparent; -fx-cursor: hand;" text="NEXT ADVICE &gt;&gt;&gt;" textAlignment="CENTER" textFill="WHITE" underline="true">
+<VBox id="backgroundPane_main3" fx:id="verticalPane" alignment="CENTER" prefHeight="58.0" prefWidth="605.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProjectMS.TimerScene.TimerSceneController">
+   <Button alignment="CENTER" contentDisplay="CENTER" minHeight="-Infinity" mnemonicParsing="false" onAction="#startButtonPressed4" prefHeight="75.0" prefWidth="625.0" style="-fx-background-color: transparent; -fx-cursor: hand;" text="NEXT ADVICE &gt;&gt;&gt;" textAlignment="CENTER" textFill="WHITE" underline="true">
       <font>
          <Font name="Arial" size="24.0" />
       </font>
@@ -17,7 +16,7 @@
          <Insets top="50.0" />
       </VBox.margin>
    </Button>
-   <Label alignment="TOP_CENTER" text="MAKE TODAY A SPECIAL DAY" textAlignment="CENTER" textFill="WHITE">
+    <Label alignment="TOP_CENTER" text="FOLLOW THE 80-20 RULE" textAlignment="CENTER" textFill="WHITE">
       <font>
          <Font name="Arial Italic" size="52.0" />
       </font>
@@ -33,7 +32,7 @@
             <Font name="Arial Black" size="150.0" />
         </font>
         <VBox.margin>
-        <Insets top="60.0" />
+        <Insets top="30.0" />
         </VBox.margin>
     </Label>
     <Label fx:id="dateTime" textAlignment="CENTER" textFill="#f2f9ff" textOverrun="WORD_ELLIPSIS" VBox.vgrow="ALWAYS">
@@ -52,10 +51,7 @@
          </font>
          <opaqueInsets>
             <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
-         </opaqueInsets>
-         <effect>
-            <DropShadow height="3.21" radius="2.5875000000000004" width="9.14" />
-         </effect></Button>
+         </opaqueInsets></Button>
         <VBox.margin>
             <Insets bottom="100.0" />
         </VBox.margin>
