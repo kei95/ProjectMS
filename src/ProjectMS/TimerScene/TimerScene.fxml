@@ -8,15 +8,17 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox id="backgroundPane_main" fx:id="verticalPane" alignment="CENTER" prefHeight="58.0" prefWidth="605.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProjectMS.TimerScene.TimerSceneController">
-   <Button alignment="CENTER" contentDisplay="CENTER" minHeight="-Infinity" mnemonicParsing="false" onAction="#startButtonPressed1" prefHeight="75.0" prefWidth="625.0" style="-fx-background-color: transparent; -fx-cursor: hand;" text="NEXT ADVICE &gt;&gt;&gt;" textAlignment="CENTER" textFill="WHITE" underline="true">
-      <font>
-         <Font name="Arial" size="24.0" />
-      </font>
-      <VBox.margin>
-         <Insets top="50.0" />
-      </VBox.margin>
-   </Button>
+<VBox id="backgroundPane_main" alignment="CENTER" prefHeight="58.0" prefWidth="605.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProjectMS.TimerScene.TimerSceneController">
+    <HBox alignment="CENTER" prefHeight="80.0" prefWidth="300.0" spacing="50.0">
+        <Button alignment="CENTER" contentDisplay="CENTER" minHeight="-Infinity" mnemonicParsing="false" onAction="#startButtonPressed1" prefHeight="75.0" prefWidth="300.0" style="-fx-background-color: transparent; -fx-cursor: hand;" text="NEXT ADVICE &gt;&gt;&gt;" textAlignment="CENTER" textFill="WHITE" underline="true">
+            <font>
+                <Font name="Arial" size="24.0" />
+            </font>
+            <VBox.margin>
+                <Insets top="50.0" />
+            </VBox.margin></Button>
+
+    </HBox>
    <Label alignment="TOP_CENTER" text="MAKE TODAY A SPECIAL DAY" textAlignment="CENTER" textFill="WHITE">
       <font>
          <Font name="Arial Italic" size="52.0" />

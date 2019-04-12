@@ -7,10 +7,8 @@ import javafx.animation.Timeline;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.util.Duration;
-
 import java.net.URL;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -19,16 +17,12 @@ import java.util.ResourceBundle;
 public class TimerSceneController implements Initializable {
 
     @FXML
-    public Button startTimerButton;
-
-    @FXML Button move;
-
-    @FXML
     private Label dateTime;
 
     @FXML Label Time;
 
     private Timeline clock;
+
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
@@ -78,7 +72,5 @@ public class TimerSceneController implements Initializable {
     public void startButtonPressed7(ActionEvent actionEvent) {
         Main.screenController.activate("TimerScene");
     }
-
-
 
 }
